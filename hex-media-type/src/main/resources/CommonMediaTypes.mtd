@@ -1,0 +1,84 @@
+MediaType;Suffix;Description...
+application/dart;dart;Dart files
+application/gzip;gz,gzip;Gzip, Defined in RFC 6713
+application/javascript;js;ECMAScript/JavaScript;Defined in RFC 4329
+application/json;json;JavaScript Object Notation JSON;Defined in RFC 4627
+application/msword;doc;Microsoft Word files
+application/ogg;ogg;Ogg, a multimedia bitstream container format;Defined in RFC 5334
+application/pdf;pdf;Portable Document Format, PDF has been in use for document exchange on the Internet since 1993;Defined in RFC 3778
+application/postscript;ps;PostScript;Defined in RFC 2046
+application/rdf+xml;rdf;Resource Description Framework;Defined by RFC 3870
+application/rss+xml;rss;RSS feeds
+application/vnd.android.package-archive;apk;For download apk files.
+application/vnd.debian.binary-package;deb;deb (file format), a software package format used by the Debian project;Registered
+application/vnd.google-earth.kml+xml;kml;KML files (e.g. for Google Earth)
+application/vnd.google-earth.kmz;kmz;KMZ files (e.g. for Google Earth)
+application/vnd.mozilla.xul+xml;xul;Mozilla XUL files
+application/vnd.ms-excel;xls;Microsoft Excel files
+application/vnd.ms-powerpoint;ppt;Microsoft Powerpoint files
+application/vnd.ms-xpsdocument;xps;XPS document
+application/vnd.oasis.opendocument.graphics;odg;OpenDocument Graphics;Registered
+application/vnd.oasis.opendocument.presentation;odp;OpenDocument Presentation;Registered
+application/vnd.oasis.opendocument.spreadsheet;ods;OpenDocument Spreadsheet;Registered
+application/vnd.oasis.opendocument.text;odt;OpenDocument Text;Registered
+application/vnd.openxmlformats-officedocument.presentationml.presentation;pptx;Microsoft Powerpoint 2007 files
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;xlsx;Microsoft Excel 2007 files
+application/vnd.openxmlformats-officedocument.wordprocessingml.document;docx;Microsoft Word 2007 files
+application/x-7z-compressed;7z;7-Zip compression format.
+application/x-chrome-extension;crx;Google Chrome/Chrome OS extension, app, or theme package
+application/x-dvi;dvi;device-independent document in DVI format
+application/x-font-ttf;ttf;TrueType Font No registered MIME type, but this is the most commonly used
+application/x-latex;tex;LaTeX files
+application/x-mpegURL;m3u8;.m3u8 variant playlist
+application/x-pkcs12;p12;a variant of PKCS standard files
+application/x-rar-compressed;rar;RAR archive files
+application/x-shockwave-flash;swf;Adobe Flash files for example with the extension .swf
+application/x-stuffit;sit;StuffIt archive files
+application/x-tar;tar;Tarball files
+application/x-xpinstall;xpi;Add-ons to Mozilla applications (Firefox, Thunderbird, SeaMonkey, and the discontinued Sunbird)
+application/xaml+xml;xaml;Markup language for Microsoft applications.;Vectorgrafic.
+application/xhtml+xml;xhtml;XHTML;Defined by RFC 3236
+application/xml-dtd;dtd;DTD files;Defined by RFC 3023
+application/xml;xml;XML files;Defined by RFC 3023
+application/xop+xml;xop;XOP
+application/zip;zip;ZIP archive files;Registered
+audio/basic;au;μ-law audio at 8 kHz, 1 channel;Defined in RFC 2046
+audio/flac;flac;native Flac (Flac in its own container)
+audio/mp4;mp4,m4a,m4p,m4b,m4r,m4v;MP4 audio
+audio/mpeg;mpeg,mpg,mp3;MP3 or other MPEG audio;Defined in RFC 3003
+audio/ogg;ogg,oga,ogx,ogm,spx,opus;Vorbis, Opus, Speex, Flac and other audio in an Ogg container;Defined in RFC 5334
+audio/vnd.rn-realaudio;ra,ram;RealAudio;Documented in RealPlayer Help
+audio/vnd.wave;wav,wave;WAV audio;Defined in RFC 2361
+audio/webm;webm;WebM open media format
+audio/x-aac;aac;.aac audio files
+audio/x-caf;caf;Apple's CAF audio files
+image/gif;gif;GIF image;Defined in RFC 2045 and RFC 2046
+image/jpeg;jpg,jpeg,jpe,jif,jfif,jfi;JPEG JFIF image;Defined in RFC 2045 and RFC 2046
+image/png;png;Portable Network Graphics;Registered, Defined in RFC 2083
+image/svg+xml;svg;SVG vector image;Defined in SVG Tiny 1.2 Specification Appendix M
+image/tiff;tif,tiff;TIF image
+image/vnd.djvu;djv,djvu;DjVu image and multipage document format.
+image/x-tga;tga;A raster graphics file format created by Truevision Inc.;Not registered at IANA.
+image/x-xcf;xcf;GIMP image file
+message/rfc822;eml,mht,mhtml,nws;Email;EML files, MIME files, MHT files, MHTML files;Defined in RFC 2045 and RFC 2046
+model/iges;igs,iges;IGS files, IGES files;Defined in RFC 2077
+model/mesh;msh,mesh;MSH files, MESH files;Defined in RFC 2077, SILO files
+model/vrml;wrl,wrml;WRL files, VRML files;Defined in RFC 2077
+text/calendar;ics,ical,ifb,icalendar;iCalendar;The file format for calendar data exchange
+text/css;css;Cascading Style Sheets;Defined in RFC 2318
+text/csv;csv;Comma-separated values;Defined in RFC 4180
+text/html;htm,html;HTML;Defined in RFC 2854
+text/plain;txt,text;Textual data;Defined in RFC 2046 and RFC 3676
+text/rtf;rtf;RTF;Defined by Paul Lindner
+text/vcard;vcard;vCard (contact information);Defined in RFC 6350
+text/vnd.abc;abc;ABC music notation;Registered
+text/x-markdown;md;Markdown formatted text
+video/avi;avi;Covers most Windows-compatible formats including .avi and .divx
+video/mp4;mp4;MP4 video;Defined in RFC 4337
+video/mpeg;mpeg;MPEG-1 video with multiplexed audio;Defined in RFC 2045 and RFC 2046
+video/ogg;ogv;Ogg Theora or other video (with audio);Defined in RFC 5334
+video/quicktime;mov,qt;QuickTime video;Registered
+video/webm;webm;WebM Matroska-based open media format
+video/x-flv;flv,f4v,f4p,f4a,f4b;Flash video (FLV files)
+video/x-matroska;mkv,mk3d,mka,mks;Matroska open media format
+video/x-ms-wmv;wmv;Windows Media Video;Documented in Microsoft KB 288102
