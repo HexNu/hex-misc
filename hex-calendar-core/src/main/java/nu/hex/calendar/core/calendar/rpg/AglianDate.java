@@ -21,6 +21,6 @@ public class AglianDate extends AbstractRpgDate {
 
     @Override
     public String getCalendarName() {
-        return "Aglian Calendar";
+        return AGLIAN_CALENDAR;
     }
 }

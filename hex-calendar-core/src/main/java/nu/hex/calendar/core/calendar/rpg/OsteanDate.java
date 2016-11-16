@@ -1,8 +1,5 @@
 package nu.hex.calendar.core.calendar.rpg;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-
 /**
  * Created 2016-nov-15
  *
@@ -24,6 +21,6 @@ public class OsteanDate extends AbstractRpgDate {
 
     @Override
     public String getCalendarName() {
-        return "Ostean Calendar";
+        return OSTEAN_CALENDAR;
     }
 }
