@@ -38,11 +38,13 @@ public class MediaTypeIdentifier {
         }
         return null;
     }
-    
+
     public String[] getSuffixByMediaType(String mediaType) {
-        for (String suffix : fileTypeMediaTypeMap.keySet()) {
-            if (fileTypeMediaTypeMap.get(suffix).contains(mediaType)) {
-                return suffix.split(",");
+        if (mediaType != null) {
+            for (String suffix : fileTypeMediaTypeMap.keySet()) {
+                if (fileTypeMediaTypeMap.get(suffix).contains(mediaType)) {
+                    return suffix.split(",");
+                }
             }
         }
         return null;
