@@ -542,7 +542,7 @@ public interface CommonMediaType {
      * <br>
      * MediaType: <i>image/gif</i>
      * <br>
-     * FileSuffix: <i>.gif</i>
+     * FileSuffix: <i>.gif, .giff, .gfa</i>
      */
     public static final String IMAGE_GIF = "image/gif";
     /**
