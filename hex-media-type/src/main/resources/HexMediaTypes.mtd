@@ -1,2 +1,2 @@
 MediaType;Suffix;Description...
-application/vnd.hex.campaign.hrmx+xml;hrmx;Kapmanj-format;XML-format för RPG-kampanjdata.
+application/vnd.hex.hrmx+xml;hrmx;Campaign Project-format;XML-format för RPG-Kampanjprojekt.

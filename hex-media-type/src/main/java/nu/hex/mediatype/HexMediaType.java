@@ -16,14 +16,14 @@ package nu.hex.mediatype;
 public interface HexMediaType {
 
     /**
-     * Kapmanj-format<br>
+     * Campaign Project-format<br>
      *
-     * XML-format för RPG-kampanjdata.<br>
+     * XML-format för RPG-Kampanjprojekt.<br>
      *
      * <br>
-     * MediaType: <i>application/vnd.hex.campaign.hrmx+xml</i>
+     * MediaType: <i>application/vnd.hex.hrmx+xml</i>
      * <br>
      * FileSuffix: <i>.hrmx</i>
      */
-    public static final String APPLICATION_VND_HEX_CAMPAIGN_HRMX_XML = "application/vnd.hex.campaign.hrmx+xml";
+    public static final String APPLICATION_VND_HEX_HRMX_XML = "application/vnd.hex.hrmx+xml";
 }
