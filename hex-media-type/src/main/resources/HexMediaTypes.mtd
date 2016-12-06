@@ -1,2 +1,4 @@
 MediaType;Suffix;Description...
-application/vnd.hex.hrmx+xml;hrmx;Campaign Project-format;XML-format för RPG-Kampanjprojekt.
+application/vnd.hex.amx;amx;Compressed Music Project format;Compressed Format for Music Projects.
+application/vnd.hex.amxf+xml;amxf;Music Project format;XML Format for Music Projects.
+application/vnd.hex.hrmx+xml;hrmx;Campaign Project format;XML format for RPG Campaign projects.

@@ -16,9 +16,31 @@ package nu.hex.mediatype;
 public interface HexMediaType {
 
     /**
-     * Campaign Project-format<br>
+     * Compressed Music Project format<br>
      *
-     * XML-format för RPG-Kampanjprojekt.<br>
+     * Compressed Format for Music Projects.<br>
+     *
+     * <br>
+     * MediaType: <i>application/vnd.hex.amx</i>
+     * <br>
+     * FileSuffix: <i>.amx</i>
+     */
+    public static final String APPLICATION_VND_HEX_AMX = "application/vnd.hex.amx";
+    /**
+     * Music Project format<br>
+     *
+     * XML Format for Music Projects.<br>
+     *
+     * <br>
+     * MediaType: <i>application/vnd.hex.amxf+xml</i>
+     * <br>
+     * FileSuffix: <i>.amxf</i>
+     */
+    public static final String APPLICATION_VND_HEX_AMXF_XML = "application/vnd.hex.amxf+xml";
+    /**
+     * Campaign Project format<br>
+     *
+     * XML format for RPG Campaign projects.<br>
      *
      * <br>
      * MediaType: <i>application/vnd.hex.hrmx+xml</i>
