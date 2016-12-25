@@ -455,6 +455,15 @@ public interface CommonMediaType {
      */
     public static final String AUDIO_FLAC = "audio/flac";
     /**
+     * MID audio<br>
+     *
+     * <br>
+     * MediaType: <i>audio/midi</i>
+     * <br>
+     * FileSuffix: <i>.mid, .midi</i>
+     */
+    public static final String AUDIO_MIDI = "audio/midi";
+    /**
      * MP4 audio<br>
      *
      * <br>

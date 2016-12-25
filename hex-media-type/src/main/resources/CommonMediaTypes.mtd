@@ -44,6 +44,7 @@ application/xop+xml;xop;XOP
 application/zip;zip;ZIP archive files;Registered
 audio/basic;au;μ-law audio at 8 kHz, 1 channel;Defined in RFC 2046
 audio/flac;flac;native Flac (Flac in its own container)
+audio/midi;mid,midi;MID audio
 audio/mp4;mp4,m4a,m4p,m4b,m4r,m4v;MP4 audio
 audio/mpeg;mpeg,mpg,mp3;MP3 or other MPEG audio;Defined in RFC 3003
 audio/ogg;ogg,oga,ogx,ogm,spx,opus;Vorbis, Opus, Speex, Flac and other audio in an Ogg container;Defined in RFC 5334
