@@ -1,5 +1,6 @@
 MediaType;Suffix;Description...
 application/dart;dart;Dart files
+application/epub+zip;epub;ePub Files; IDPF 
 application/gzip;gz,gzip;Gzip, Defined in RFC 6713
 application/javascript;js;ECMAScript/JavaScript;Defined in RFC 4329
 application/json;json;JavaScript Object Notation JSON;Defined in RFC 4627

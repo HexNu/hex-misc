@@ -25,6 +25,17 @@ public interface CommonMediaType {
      */
     public static final String APPLICATION_DART = "application/dart";
     /**
+     * ePub Files<br>
+     *
+     * IDPF<br>
+     *
+     * <br>
+     * MediaType: <i>application/epub+zip</i>
+     * <br>
+     * FileSuffix: <i>.epub</i>
+     */
+    public static final String APPLICATION_EPUB_ZIP = "application/epub+zip";
+    /**
      * Gzip, Defined in RFC 6713<br>
      *
      * <br>
