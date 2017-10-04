@@ -167,6 +167,13 @@ public interface CommonMediaType {
      */
     public static final String APPLICATION_VND_GOOGLE_EARTH_KMZ = "application/vnd.google-earth.kmz";
     /**
+     * Google Apps Folder (e.g. for Google Drive)<br>
+     *
+     * <br>
+     * MediaType: <i>application/vnd.google-apps.folder</i>
+     */
+    public static final String APPLICATION_VND_GOOGLE_APPS_FOLDER = "application/vnd.google-apps.folder";
+    /**
      * Mozilla XUL files<br>
      *
      * <br>

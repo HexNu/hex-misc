@@ -14,6 +14,7 @@ application/vnd.android.package-archive;apk;For download apk files.
 application/vnd.debian.binary-package;deb;deb (file format), a software package format used by the Debian project;Registered
 application/vnd.google-earth.kml+xml;kml;KML files (e.g. for Google Earth)
 application/vnd.google-earth.kmz;kmz;KMZ files (e.g. for Google Earth)
+application/vnd.google-apps.folder;;Google Apps Folder (e.g. for Google Drive)
 application/vnd.mozilla.xul+xml;xul;Mozilla XUL files
 application/vnd.ms-excel;xls;Microsoft Excel files
 application/vnd.ms-powerpoint;ppt;Microsoft Powerpoint files
