@@ -40,6 +40,17 @@ public interface HexMediaType {
     /**
      * Campaign Project format<br>
      *
+     * Compressed format for RPG Campaign projects.<br>
+     *
+     * <br>
+     * MediaType: <i>application/vnd.hex.hrm+zip</i>
+     * <br>
+     * FileSuffix: <i>.hrm</i>
+     */
+    public static final String APPLICATION_VND_HEX_HRM_ZIP = "application/vnd.hex.hrm+zip";
+    /**
+     * Campaign Project format<br>
+     *
      * XML format for RPG Campaign projects.<br>
      *
      * <br>

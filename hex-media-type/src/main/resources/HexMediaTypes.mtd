@@ -1,4 +1,5 @@
 MediaType;Suffix;Description...
 application/vnd.hex.amx;amx;Compressed Music Project format;Compressed Format for Music Projects.
 application/vnd.hex.amxf+xml;amxf;Music Project format;XML Format for Music Projects.
+application/vnd.hex.hrm+zip;hrm;Campaign Project format;Compressed format for RPG Campaign projects.
 application/vnd.hex.hrmx+xml;hrmx;Campaign Project format;XML format for RPG Campaign projects.
