@@ -76,6 +76,13 @@ public interface CommonMediaType {
      */
     public static final String APPLICATION_MSWORD = "application/msword";
     /**
+     * Arbitrary Binary Data  RFC2046<br>
+     *
+     * <br>
+     * MediaType: <i>application/octet-stream</i>
+     */
+    public static final String APPLICATION_OCTET_STREAM = "application/octet-stream";
+    /**
      * Ogg, a multimedia bitstream container format<br>
      *
      * Defined in RFC 5334<br>
@@ -149,6 +156,13 @@ public interface CommonMediaType {
      */
     public static final String APPLICATION_VND_DEBIAN_BINARY_PACKAGE = "application/vnd.debian.binary-package";
     /**
+     * Google Apps Folder (e.g. for Google Drive)<br>
+     *
+     * <br>
+     * MediaType: <i>application/vnd.google-apps.folder</i>
+     */
+    public static final String APPLICATION_VND_GOOGLE_APPS_FOLDER = "application/vnd.google-apps.folder";
+    /**
      * KML files (e.g. for Google Earth)<br>
      *
      * <br>
@@ -166,13 +180,6 @@ public interface CommonMediaType {
      * FileSuffix: <i>.kmz</i>
      */
     public static final String APPLICATION_VND_GOOGLE_EARTH_KMZ = "application/vnd.google-earth.kmz";
-    /**
-     * Google Apps Folder (e.g. for Google Drive)<br>
-     *
-     * <br>
-     * MediaType: <i>application/vnd.google-apps.folder</i>
-     */
-    public static final String APPLICATION_VND_GOOGLE_APPS_FOLDER = "application/vnd.google-apps.folder";
     /**
      * Mozilla XUL files<br>
      *

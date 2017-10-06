@@ -1,10 +1,11 @@
 MediaType;Suffix;Description...
 application/dart;dart;Dart files
-application/epub+zip;epub;ePub Files; IDPF 
+application/epub+zip;epub;ePub Files;IDPF
 application/gzip;gz,gzip;Gzip, Defined in RFC 6713
 application/javascript;js;ECMAScript/JavaScript;Defined in RFC 4329
 application/json;json;JavaScript Object Notation JSON;Defined in RFC 4627
 application/msword;doc;Microsoft Word files
+application/octet-stream;;Arbitrary Binary Data  RFC2046
 application/ogg;ogg;Ogg, a multimedia bitstream container format;Defined in RFC 5334
 application/pdf;pdf;Portable Document Format, PDF has been in use for document exchange on the Internet since 1993;Defined in RFC 3778
 application/postscript;ps;PostScript;Defined in RFC 2046
@@ -12,9 +13,9 @@ application/rdf+xml;rdf;Resource Description Framework;Defined by RFC 3870
 application/rss+xml;rss;RSS feeds
 application/vnd.android.package-archive;apk;For download apk files.
 application/vnd.debian.binary-package;deb;deb (file format), a software package format used by the Debian project;Registered
+application/vnd.google-apps.folder;;Google Apps Folder (e.g. for Google Drive)
 application/vnd.google-earth.kml+xml;kml;KML files (e.g. for Google Earth)
 application/vnd.google-earth.kmz;kmz;KMZ files (e.g. for Google Earth)
-application/vnd.google-apps.folder;;Google Apps Folder (e.g. for Google Drive)
 application/vnd.mozilla.xul+xml;xul;Mozilla XUL files
 application/vnd.ms-excel;xls;Microsoft Excel files
 application/vnd.ms-powerpoint;ppt;Microsoft Powerpoint files
