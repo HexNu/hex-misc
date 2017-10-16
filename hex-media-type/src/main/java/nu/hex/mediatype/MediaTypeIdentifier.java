@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
@@ -19,6 +20,8 @@ import java.util.logging.Logger;
 public class MediaTypeIdentifier {
 
     Map<String, Set<String>> fileTypeMediaTypeMap = new TreeMap<>();
+    Map<String, String> suffixMap = new HashMap<>();
+    Map<String, String> defaultMediaTypeMap = new HashMap<>();
     private final SourceProvider provider = new SourceProvider();
 
     public MediaTypeIdentifier() {
@@ -39,7 +42,11 @@ public class MediaTypeIdentifier {
         return null;
     }
 
-    public String[] getSuffixByMediaType(String mediaType) {
+    public String getSuffix(String mediaType) {
+        return defaultMediaTypeMap.get(mediaType);
+    }
+
+    public String[] getSuffixesByMediaType(String mediaType) {
         if (mediaType != null) {
             for (String suffix : fileTypeMediaTypeMap.keySet()) {
                 if (fileTypeMediaTypeMap.get(suffix).contains(mediaType)) {
@@ -85,9 +92,15 @@ public class MediaTypeIdentifier {
                 String[] lineParts = line.split(";");
                 if (lineParts.length > 1) {
                     String[] fileSuffices = lineParts[1].split(",");
+                    String mediaType = lineParts[0].trim().toLowerCase();
+                    boolean defaultAdded = false;
                     for (String fileSuffix : fileSuffices) {
                         String suffix = fileSuffix.trim().toLowerCase();
-                        String mediaType = lineParts[0].trim().toLowerCase();
+                        if (!defaultAdded) {
+                            defaultMediaTypeMap.put(mediaType, suffix);
+                            defaultAdded = true;
+                        }
+                        suffixMap.put(suffix, mediaType);
                         if (!suffix.equals("")) {
                             if (fileTypeMediaTypeMap.containsKey(suffix)) {
                                 fileTypeMediaTypeMap.get(suffix).add(mediaType);
@@ -115,22 +128,5 @@ public class MediaTypeIdentifier {
             String resource = "CommonMediaTypes.mtd";
             return getClass().getClassLoader().getResourceAsStream(resource);
         }
-    }
-
-    public static void main(String[] args) {
-//        String suffix[] = new MediaTypeIdentifier().getSuffixByMediaType(HexMediaType.APPLICATION_VND_HEX_CAMPAIGN_HRMX_XML);
-//        System.out.println(suffix[0]);
-
-//        String[] suffices = {"mpeg", "mpg", "mp3", "mp4", "ogg", "ogv", "oga", "txt", "csv", "abc", "tga", "rmx"};
-//        MediaTypeIdentifier identifier = new MediaTypeIdentifier();
-//        for (String suffix : suffices) {
-//            System.out.println("\nSuffix: " + suffix.toUpperCase());
-//            Set<String> mediaTypes = identifier.getMediaTypeByFileSuffix(suffix);
-//            int i = 1;
-//            for (String typeString : mediaTypes) {
-//                String nr = String.valueOf(i++);
-//                System.out.println(nr + "." + typeString);
-//            }
-//        }
     }
 }
